@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="ru">
+ <head>
+   <meta charset="utf-8"/>
+   <title>Студия дизайна"nerd's"</title>
+   <meta name="keywords" content="верстка студии дизайна">
+   <meta name="description" content="главная студии дизайна">
+   <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap'/>
+   <link rel="stylesheet" href="css/index-style.css">
+ </head>
+ <body>
+   <header class="main-header">
+     <nav class="main-navigation">
+	    <div class="main-navigation-wrapper">
+		    <div class="container">
+	            <a class="main-header-logo">
+	               <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип nerd's"/>
+	            </a>
+        
+		        <ul class="site-navigation">
+		           <li><a href="info.html">Студия</a></li>
+		           <li><a href="clients.html">Клиенты</a></li>
+		           <li><a href="nerds-catalog.html">Магазин</a></li>
+		           <li><a href="contacts.html">Контакты</a></li>
+		        </ul>
+		        <ul class="user-navigation">
+		           <li><a class="basket-shop" href="shop.ru">Корзина</a></li>
+		        </ul>
+			</div>
+		</div>
+	  </nav>
+	 
+	 <div class="slider">
+        <input type="radio" id="btn-1" name="toggle" checked>
+        <input type="radio" id="btn-2" name="toggle">
+        <input type="radio" id="btn-3" name="toggle">
+        <div class="slider-controls">
+          <label for="btn-1"></label>
+          <label for="btn-2"></label>
+          <label for="btn-3"></label>
+        </div>
+        <div class="slides">
+          <div class="slide">
+            <div class="slide-text">
+              <div class="slide-title">Долго, дорого,<br> скрупулезно</div>
+              <p>Математически выверенный дизайн<br>
+  для вашего сайта или мобильного приложения.</p>
+              <a class="btn" href="#">Узнать больше</a>
+            </div>
+			<div class="slide-images">
+			  <img src="img/slide1.png" width="760" height="431"  style="float:rirght" alt="слайд1">
+			</div>
+          </div>
+          <div class="slide">
+            <div class="slide-text">
+              <div class="slide-title title-2">Любим математику <br> как никто другой</div>
+              <p>Никакого креатива, только математические формулы <br> 
+			  для расчета идеальных пропорций.</p>
+              <a class="btn" href="#">Узнать больше</a>
+            </div>
+			<div class="slide-images">
+			  <img src="img/slide2.png" width="663" height="430" alt="слайд2"/>
+			</div>
+          </div>
+          <div class="slide">
+            <div class="slide-text">
+              <div class="slide-title">Только ночь,</br>только хардкор</div>
+              <p>Работать днем, как все? Мы против этого.</br> Ближе к полуночи работа только начинается.</p>
+              <a class="btn" href="#">Узнать больше</a>
+            </div>
+			<div class="slide-images">
+			  <img src="img/slide3.png" width="759" height="411" alt="слайд3"/>
+			</div>
+          </div>
+        </div>
+	 </div>
+
+
+    <!-- Второй вариант Слайда 
+	 <div class="slider">
+	  <div class="main-slider">
+	    <input type="radio" name="toggle" id="btn-1" checked>
+		<input type="radio" name="toggle" id="btn-2">
+		<input type="radio" name="toggle" id="btn-3">
+		
+		<div class="slider-controls">
+		    <label for="btn-1"></label>
+			<label for="btn-2"></label>
+			<label for="btn-3"></label>
+        </div>
+		<div class="slider-inner">
+		    <div class="slider-wrapper">
+		        <div class="slider-item">
+		            <div class="column-1 slider-item">
+		               <h1>Долго, дорого, скрупулезно</h1>
+		               <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+		               <a class="button" href="information.html">Узнать больше</a>
+		            </div>
+		            <div class="column-2 slider-item">
+		               <img src="img/slide1.png" width="760" height="431"  style="float:rirght" alt="слайд1">
+		            </div>
+		        </div>
+		
+		        <div class="slider-item">
+		            <div class="column-1 slide-2">
+		               <h1>Любим математику </br> как никто другой</h1>
+		               <p>Никакого креатива, только математические формулы </br> для расчета идеальных пропорций.</p>
+		               <a class="button" href="information.html">Узнать больше</a>
+		            </div>
+		            <div class="column-2 slide-2">
+		               <img src="img/slide2.png" width="663" height="430" alt="слайд2"/>
+			        </div>
+	            </div>
+		
+		        <div class="slider-item">
+		            <div class="column-1 slide-3">
+		               <h1>Только ночь,</br>только хардкор</h1>
+		               <p>Работать днем, как все? Мы против этого.</br> Ближе к полуночи работа только начинается.</p>
+		               <a class="button" href="information.html">Узнать больше</a>
+		            </div>
+			        <div class="column-2 slide-3">
+		               <img src="img/slide3.png" width="759" height="411" alt="слайд3"/>
+			        </div>
+		        </div>
+		    </div>
+        </div>
+	   </div>
+	 </div> -->
+    </header>
+	
+	<main class="container">
+	
+	  <section class="services">
+		<ul class="services-list">
+		  <li class="service-item web-site">
+	        <img src="img/illustration-1.png" width="300" height="146" alt="веб-сайты"/>
+		    <h3>Веб сайты</h3>
+		    <p>Мир никогда не будет прежним после того как увидит ваш сайт </p>
+		    <form action="" method="post">
+		     <input type="submit" value="ЗАКАЗАТЬ">
+		   </form>
+	      </li>
+	      <li class="service-item applicatons">
+	        <img src="img/illustration-2.png" width="300" height="146" alt="приложения"/>
+		    <h3>Приложения</h3>
+		    <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+		    <form action="" method="post">
+		     <input type="submit" value="ЗАКАЗАТЬ">
+		   </form>
+	     </li>
+	     <li class="service-item presentation">
+	        <img src="img/illustration-3.png" width="300" height="146" alt="презентации"/>
+		    <h3>Презентации</h3>
+		    <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <form action="" method="post">
+		     <input type="submit" value="ЗАКАЗАТЬ">
+		    </form>
+	     </li>
+		</ul>
+	  </section>
+	  
+	  <div class="index-columns">
+	  <section class="advantages">
+	    <b>Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
+		<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+        <h4>Выполняем заказы на разработку:</h4>
+		<ul class="advantage-list">
+		   <li>Веб-сайтов любой сложности</li>
+		   <li>Мобильных приложений для IOS и Android</li>
+		   <li>Слайдшоу и видео для корпоративных презентаций</li>
+		</ul>
+	  </section>
+	  
+	  <section class="succes">
+		<img src="img/nerds-illustration.png" width="360" height="208" alt="иллюстрация логотипа"/>
+		<h3>С 2004 года любим точность во всем:</h3>
+		<table class="succes-table">
+		  <tr class="numbers">
+		    <td>146%</td>
+		    <td>100%</td>
+		    <td>50%</td>
+		  </tr>
+		  <tr class="data">
+		    <td>Уровень самоотдачи</td>
+		    <td>Соблюдение сроков</td>
+		    <td>Минимальная предоплата</td>
+		  </tr>
+		</table>
+	  </section>
+	  </div>
+	  
+	  <div class="columns">
+	  <section class="projects">
+	    <ul class="project-list">
+		    <li><a class="log-button" href="#"><img src="img/logo-1.png" width="199" height="68" alt="HTML академия"/></a></li>
+			<li>    <img src="img/div vertical.png" width="2" height="52" alt="вертикальная черта"/></li>
+			<li><a class="log-button" href="#"><img src="img/logo-2.png" width="209" height="90" alt="Барбешоп Бородинский"/></a></li>
+			<li>    <img src="img/div vertical.png" width="2" height="52" alt="вертикальная черта"/></li>
+			<li><a class="log-button" href="#"><img src="img/logo-3.png" width="185" height="52" alt="PINK"/></a></li>
+			<li>    <img src="img/div vertical.png" width="2" height="52" alt="вертикальная черта"/></li>
+			<li><a class="log-button" href="#"><img class="log" src="img/logo-4.png" width="173" height="84" alt="MISHKA"/></a></li>
+        </ul>
+	  </section>
+	  </div>
+   </main>
+   
+   <footer class="main-footer">
+     <article class="footer-contacts">
+	    <!--<img src="img/group-map.jpg" width="1440" height="416" alt="Офис компании по адресу Санкт-Петербург, ул. Б.Конюшенная, д.19/8"/>-->
+	   <div class="footer-contacts-wrapper">
+        <a class="button js-button-map" href="map.html"></a> <!--для модальной карты-->   
+		<div class="container">
+		  <div class="main-contact">
+		    <div class="contacts">
+		      <h3>NЁRDS DESIGN STUDIO</h3>
+		      <p>
+		      191186 Санкт-Петербург, <br>
+			  ул. Б. Конюшенная, д. 19/8 
+			  </p>
+			  <p>
+			  тел. +7 (812) 275-75-75 
+		      </p>
+		      <a class="button" href="#">Напишите нам</a>
+		    </div>  
+		  </div>
+	    </div>
+	   </div> 
+	 </article>
+	
+	<div class="footer-social-wrapper">
+	<div class="container">
+	  <div class="footer-social">
+		<ul>
+		  <li><a class="social-button social-vk" href="#"><span class="visually-hidden">Vkontakte</span><!--<svg src="img/vk-icon.svg" width="26" height="15" alt="Вконтакте"></svg>--></a></li>
+		  <li><a class="social-button social-fb" href="#"><span class="visually-hidden">Facebook</span><!--<svg src="img/fb-icon.svg" width="12" height="22" alt="Фейсбук"></svg>--></a></li>
+		  <li><a class="social-button social-ig" href="#"><span class="visually-hidden">Instagram</span><!--<svg src="img/insta-icon.svg" width="21" height="21" alt="Инстаграм"></svg>--></a></li>
+		</ul>
+	  </div>	
+	  <div class="discount">
+		  <b>Давайте дружить, это выгодно!</b>
+		  <p>скидка 10% для друзей из социальных сетей</p>
+	  </div>
+    </div>
+	</div>
+   </footer>
+   
+   <section class="modal modal-contact">
+        <h2>Напишите нам</h2>
+		<form class="contact-form" action="" method="post" novalidate>	
+		  <div class="field">
+		    <p>
+			  <label for="fio-field">Ваше имя</label><br>
+		      <input type="text" name="fio" id="fio-field" placeholder="Имя Фамилия" required>
+		    </p>
+			<p>
+		      <label for="email-field">Ваш email</label><br>
+		      <input type="text" name="email" id="email-field" placeholder="email@example.com" required>
+			</p>
+		  </div>
+		  <p>
+		    Текст письма: <br>
+		    <textarea name="comment" cols="88" rows="4">В свободной форме</textarea>
+		  </p>
+		  <button class="button" type="submit">Отправить</button><!--<input type="submit" value="Отправить">-->
+		</form>
+		<button class="modal-close" type="button">Закрыть</button>
+    </section>
+	
+	<section class="modal modal-map">
+       <h2 class="visually-hidden">Как до нас добраться</h2>
+	   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716096975!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2sby!4v1569331097384!5m2!1sru!2sby" width="760" height="490" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	   <!--<p><img src="img/group-map.jpg" width="1440" height="416" alt="Офис компании по адресу Санкт-Петербург, ул. Б.Конюшенная, д.19/8"/></p>-->
+       <button class="modal-close map" type="button">Закрыть</button>
+   </section>
+   
+   <script src="js/popup.js"></script>
+   
+  </body>
+</html>
